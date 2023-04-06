@@ -5,27 +5,28 @@ import Campaign from "./pages/Campaign";
 import Details from "./pages/Details";
 import Test from "./pages/Test";
 import NavBar from "./pages/NavBar";
+import ThankYou from "./pages/ThankYou";
 
 function App() {
   return (
     <Router basename="">
-        <div>
-          <NavBar/>
-          <Switch>
-            <Route exact path="/">
-              <div>Hello</div>
-            </Route>
-            <Route exact path="/campaign">
-              <Campaign/>
-            </Route>
-            <Route exact path="/test">
-              <Test/>
-            </Route>
-            <Route exact path="/details">
-              <Details/>
-            </Route>
-          </Switch>
-        </div>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <Campaign />
+          </Route>
+          <Route exact path="/test">
+            <Test />
+          </Route>
+          <Route exact path="/details">
+            <Details />
+          </Route>
+          <Route exact path="/thankyou">
+            <ThankYou />
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
