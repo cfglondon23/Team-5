@@ -17,7 +17,7 @@ citydata = [{'London': {'Numofpoints':'1000'}},
 
 @app.route('/userdata', methods=['GET'])
 def get_energydata():
-    return userdata
+    return citydata
 
 @app.route('/challengedata',methods=['GET'])
 def get_challengedata():
