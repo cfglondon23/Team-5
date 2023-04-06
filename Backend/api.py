@@ -5,13 +5,15 @@ from Campaign import User, Challenge
 app = Flask(__name__)
 CORS(app)
 
-userdata = [{'Lily':'abc123',
-         'Jim':'jpmorgan',
-         'Timmy': 'qwert098'}]
+citydata = [{'London': {'Numofpoints':'1000'}},
+            {'Beijing': {'Numofpoints':'980'}},
+            {'Glasgow': {'Numofpoints': '900'}},
+            {'Mumbai': {'Numofpoints': '800'}},
+            {'Singapore': {'Numofpoints': '700'}},
+            {'Tehran': {'Numofpoints': '600'}},
+            {'Dubai': {'Numofpoints': '500'}},
+            {'Buenos Aires': {'Numofpoints': '400'}}]
 
-challengedata = [{'Turn off lightbulbs!':'10 points',
-                  'Turn of TV!':'5 points',
-                  "Don't use heating!":'15 points'}]
 
 @app.route('/userdata', methods=['GET'])
 def get_energydata():
@@ -22,4 +24,4 @@ def get_challengedata():
     return challengedata
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
