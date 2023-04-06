@@ -7,6 +7,7 @@ import Test from "./pages/Test";
 import NavBar from "./pages/NavBar";
 import ThankYou from "./pages/ThankYou";
 import Leaderboard from "./pages/Leaderboard";
+import User from "./pages/User";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/leaderboard">
             <Leaderboard />
+          </Route>
+          <Route exact path="/account">
+            <User />
           </Route>
         </Switch>
       </div>
