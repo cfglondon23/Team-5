@@ -17,7 +17,7 @@ export default function Details() {
         <div className="participants">Participants: 45</div>
         <div className="reward">Reward: 3x</div>
         <div className="time">Time: 18:00 - 19:00{/*  */}</div>
-        <Link to="/campaign">
+        <Link to="/thankyou">
           <div className="button">
             <div style={{ "margin-top": "22px" }}>Join now</div>
           </div>
@@ -26,7 +26,7 @@ export default function Details() {
       <div className="detailRight">
         <img
           src={require("../assets/images/electrical-energy.png")}
-          alt="robot"
+          alt="energy"
           className="image"
         />
       </div>

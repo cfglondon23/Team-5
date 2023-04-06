@@ -1,0 +1,79 @@
+.thankyou {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2fff2;
+  height: 92vh;
+}
+
+.thankyou a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+.thankyou .thankyouLeft {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+
+  margin: 120px;
+}
+
+.thankyou .thankyouRight {
+  width: 55%;
+}
+
+.thankyou .thanksjoin {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 64px;
+  padding-bottom: 30px;
+}
+
+.thankyou .yourcontributions {
+  font-family: "SF-Pro-Display-Regular";
+  color: #939393;
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+
+.thankyou .event {
+  font-family: "SF-Pro-Display-Semibold";
+  color: black;
+  font-size: 32px;
+  padding-bottom: 5px;
+}
+
+.thankyou .date {
+  font-family: "SF-Pro-Display-Semibold";
+  color: black;
+  font-size: 32px;
+  padding-bottom: 5px;
+}
+
+.thankyou .time {
+  font-family: "SF-Pro-Display-Semibold";
+  color: black;
+  font-size: 32px;
+  padding-bottom: 60px;
+}
+
+.thankyou .button {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 36px;
+  padding-bottom: 20px;
+  background-color: #b4e8c9;
+  width: 320px;
+  height: 70px;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.thankyou .image {
+    height: 512px;
+    width: 512px;
+    margin-top: 125px;
+}

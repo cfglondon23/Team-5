@@ -13,10 +13,10 @@ export default function NavBar() {
           </div>
           <div className="item">
             <Link to="/" className="button">
-              Home{" "}
+              Campaign
             </Link>
-            <Link to="/campaign" className="button">
-              Campaign{" "}
+            <Link to="/" className="button">
+              Account
             </Link>
           </div>
         </div>
