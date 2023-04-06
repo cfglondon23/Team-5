@@ -1,5 +1,5 @@
-import numpy
-import pandas
+import numpy as np
+import pandas as pd
 import time
 
 class User():
@@ -27,6 +27,7 @@ class Challenge():
         self.objective = objective
         self.duration = duration
         self.energyval = points
+        self.numofusers = 0
 
 
     def adduser(self,user):
