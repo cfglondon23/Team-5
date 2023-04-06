@@ -11,8 +11,8 @@ export default function ThankYou() {
           Your contribution to sustainability matters a lot to our Mother Earth
         </div>
         <div className="event">Event: Earth Hour</div>
-        <div className="date">Date: 5 Jun 2023</div>
-        <div className="time">Time: 1800 - 1900</div>
+        <div className="date">Date: 6 Mar 2023</div>
+        <div className="time">Time: 18:00 - 19:00</div>
         <Link to="/leaderboard">
           <div className="button">
             <div style={{ "margin-top": "22px" }}>Leaderboard</div>

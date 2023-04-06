@@ -9,6 +9,14 @@
   align-items: center;
 }
 
+.leaderboardIndividual .left {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
 .leaderboardIndividual .rank {
   font-family: "SF-Pro-Display-Bold";
   color: black;
