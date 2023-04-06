@@ -15,7 +15,7 @@ export default function Details() {
           for one hour and use that time to engage in other activities.
         </div>
         <div className="participants">Participants: 45</div>
-        <div className="reward">Reward: 3x</div>
+        <div className="reward">Reward: 2x</div>
         <div className="time">Time: 18:00 - 19:00{/*  */}</div>
         <Link to="/thankyou">
           <div className="button">

@@ -29,7 +29,7 @@ let citydata = [
   { City: "Singapore", Numofpoints: "400", Rank: "7" },
   { City: "Shanghai", Numofpoints: "400", Rank: "8" },
   { City: "Cardiff", Numofpoints: "300", Rank: "9" },
-  { City: "Kent", Numofpoints: "300", Rank: "9" },
+  { City: "Kent", Numofpoints: "300", Rank: "10" },
 ];
 
 export default function Leaderboard() {
