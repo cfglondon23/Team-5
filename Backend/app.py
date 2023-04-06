@@ -6,10 +6,9 @@ CORS(app)
 
 data = [{"test":"yes", "hello":"world"}]
 
-@app.route('/challenges', methods=['GET'])
-def get_data():
-    return data
-
+@app.route('/challenges')
+def webpage():
+    return app.send_static_file('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
