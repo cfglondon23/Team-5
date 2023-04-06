@@ -6,6 +6,7 @@ import Details from "./pages/Details";
 import Test from "./pages/Test";
 import NavBar from "./pages/NavBar";
 import ThankYou from "./pages/ThankYou";
+import Leaderboard from "./pages/Leaderboard";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/thankyou">
             <ThankYou />
+          </Route>
+          <Route exact path="/leaderboard">
+            <Leaderboard />
           </Route>
         </Switch>
       </div>

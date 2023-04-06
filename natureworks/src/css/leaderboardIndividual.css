@@ -1,0 +1,31 @@
+.leaderboardIndividual {
+  width: 1000px;
+  height: 66px;
+  border-radius: 20px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.leaderboardIndividual .rank {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.leaderboardIndividual .city {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 24px;
+  margin-left: 130px;
+}
+
+.leaderboardIndividual .score {
+  font-family: "SF-Pro-Display-Bold";
+  color: black;
+  font-size: 24px;
+  margin-left: 500px;
+}
