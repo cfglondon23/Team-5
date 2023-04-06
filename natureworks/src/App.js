@@ -12,7 +12,7 @@ function App() {
         <div>
           <Switch>
             <Route exact path="/">
-              
+              <div>Hello</div>
             </Route>
           </Switch>
         </div>
