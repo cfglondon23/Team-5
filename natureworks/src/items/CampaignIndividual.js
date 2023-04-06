@@ -6,7 +6,7 @@ export default function CampaignIndividual({ date, title, description, backgroun
 
   return (
     <div className="campaignbox">
-      <Link to="/campaign">
+      <Link to="/details">
         <div className="box" style={{ "background-color": backgroundColor}}>
           <div className="boxMargin">
             <div className="date">{date}</div>

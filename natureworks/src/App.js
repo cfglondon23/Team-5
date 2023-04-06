@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Campaign from "./pages/Campaign";
+import Details from "./pages/Details";
 import Test from "./pages/Test";
 import NavBar from "./pages/NavBar";
 
@@ -20,6 +20,9 @@ function App() {
             </Route>
             <Route exact path="/test">
               <Test/>
+            </Route>
+            <Route exact path="/details">
+              <Details/>
             </Route>
           </Switch>
         </div>
