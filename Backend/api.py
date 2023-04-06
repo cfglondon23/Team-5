@@ -42,5 +42,6 @@ def get_energydata():
 def get_challengedata():
     return challengedata
 
+
 if __name__ == '__main__':
     app.run()

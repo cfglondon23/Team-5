@@ -43,8 +43,7 @@
                 #('London',500),
                 #('Singapore',480),
                 #('Glasgow',450),
-                #('Cardiff',400),
-                #('Kent',300)
+                #('Cardiff',400)
           #''')
 
 #c.execute('''
@@ -81,8 +80,10 @@
 
 #Create a new Flask application and define a route for the leaderboard page:
 from flask import Flask, jsonify, render_template
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/leaderboard')
 def leaderboard():
@@ -93,10 +94,14 @@ def leaderboard():
     #Implement leaderboard data retrieval
     cur = c.execute('select * from regions')
     result = cur.fetchall()
-    #cur1 = c.execute('select * from totalTrees')
-    #result1 = cur1.fetchall()
+    print(result)
+    result.reverse()
+    print(result)
+    returnList = []
+    for i, item in enumerate(result):
+        returnList.append({'City':item[0], 'Numofpoints':item[1],'Rank':i+1})
     import json
-    return json.dumps(result)
+    return json.dumps(returnList)
     
     #leaderboard_data = [{'name': 'John', 'score': 100}, {'name': 'Jane', 'score': 90}]
     #return render_template('leaderboard.html', leaderboard_data=leaderboard_data)
