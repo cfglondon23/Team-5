@@ -32,7 +32,8 @@ class Challenge():
 
     def adduser(self,user):
         self.users.append(user.username)
-    
+        
+
     
 
     
