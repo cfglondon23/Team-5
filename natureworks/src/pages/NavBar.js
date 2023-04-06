@@ -15,7 +15,7 @@ export default function NavBar() {
             <Link to="/" className="button">
               Campaign
             </Link>
-            <Link to="/" className="button">
+            <Link to="/account" className="button">
               Account
             </Link>
           </div>
